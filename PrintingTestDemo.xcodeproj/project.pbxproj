@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE20AC7C1D92623A00FD4B82 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE20AC7A1D92623A00FD4B82 /* img1.jpg */; };
+		CE20AC7D1D92623A00FD4B82 /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE20AC7B1D92623A00FD4B82 /* img2.jpg */; };
 		CE324F4C1D87D96500F63FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE324F4B1D87D96500F63FC8 /* AppDelegate.swift */; };
 		CE324F4E1D87D96500F63FC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE324F4D1D87D96500F63FC8 /* ViewController.swift */; };
 		CE324F511D87D96500F63FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE324F4F1D87D96500F63FC8 /* Main.storyboard */; };
 		CE324F541D87D96500F63FC8 /* PrintingTestDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE324F521D87D96500F63FC8 /* PrintingTestDemo.xcdatamodeld */; };
 		CE324F561D87D96500F63FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE324F551D87D96500F63FC8 /* Assets.xcassets */; };
 		CE324F591D87D96500F63FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE324F571D87D96500F63FC8 /* LaunchScreen.storyboard */; };
+		DC177AAEA271094D75F234E4 /* Pods_PrintingTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC92BC03A1998E19545FD6B /* Pods_PrintingTestDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A086590A3F7CDA49625DAAE /* Pods-PrintingTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintingTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrintingTestDemo/Pods-PrintingTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5A8F7C348E2D9DDFBD54663A /* Pods-PrintingTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintingTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrintingTestDemo/Pods-PrintingTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE20AC7A1D92623A00FD4B82 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		CE20AC7B1D92623A00FD4B82 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
 		CE324F481D87D96500F63FC8 /* PrintingTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintingTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE324F4B1D87D96500F63FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE324F4D1D87D96500F63FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		CE324F551D87D96500F63FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE324F581D87D96500F63FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE324F5A1D87D96500F63FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC92BC03A1998E19545FD6B /* Pods_PrintingTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintingTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC177AAEA271094D75F234E4 /* Pods_PrintingTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC57A97081C61F1DED9A7E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC92BC03A1998E19545FD6B /* Pods_PrintingTestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE324F3F1D87D96500F63FC8 = {
 			isa = PBXGroup;
 			children = (
 				CE324F4A1D87D96500F63FC8 /* PrintingTestDemo */,
 				CE324F491D87D96500F63FC8 /* Products */,
+				F843DE6633C99BEF76473031 /* Pods */,
+				BC57A97081C61F1DED9A7E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +77,8 @@
 			children = (
 				CE324F4B1D87D96500F63FC8 /* AppDelegate.swift */,
 				CE324F4D1D87D96500F63FC8 /* ViewController.swift */,
+				CE20AC7A1D92623A00FD4B82 /* img1.jpg */,
+				CE20AC7B1D92623A00FD4B82 /* img2.jpg */,
 				CE324F4F1D87D96500F63FC8 /* Main.storyboard */,
 				CE324F551D87D96500F63FC8 /* Assets.xcassets */,
 				CE324F571D87D96500F63FC8 /* LaunchScreen.storyboard */,
@@ -67,6 +88,15 @@
 			path = PrintingTestDemo;
 			sourceTree = "<group>";
 		};
+		F843DE6633C99BEF76473031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F7C348E2D9DDFBD54663A /* Pods-PrintingTestDemo.debug.xcconfig */,
+				2A086590A3F7CDA49625DAAE /* Pods-PrintingTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE324F5D1D87D96500F63FC8 /* Build configuration list for PBXNativeTarget "PrintingTestDemo" */;
 			buildPhases = (
+				D0B7AF6263E6B2A1E7FD2A12 /* [CP] Check Pods Manifest.lock */,
 				CE324F441D87D96500F63FC8 /* Sources */,
 				CE324F451D87D96500F63FC8 /* Frameworks */,
 				CE324F461D87D96500F63FC8 /* Resources */,
+				60D723E91A3C29947DC6489F /* [CP] Embed Pods Frameworks */,
+				2627446D984F0B6482AEF3B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +132,7 @@
 				TargetAttributes = {
 					CE324F471D87D96500F63FC8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QL27L2KR4Y;
 					};
 				};
 			};
@@ -126,12 +160,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE324F591D87D96500F63FC8 /* LaunchScreen.storyboard in Resources */,
+				CE20AC7C1D92623A00FD4B82 /* img1.jpg in Resources */,
 				CE324F561D87D96500F63FC8 /* Assets.xcassets in Resources */,
+				CE20AC7D1D92623A00FD4B82 /* img2.jpg in Resources */,
 				CE324F511D87D96500F63FC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2627446D984F0B6482AEF3B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrintingTestDemo/Pods-PrintingTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60D723E91A3C29947DC6489F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrintingTestDemo/Pods-PrintingTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B7AF6263E6B2A1E7FD2A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE324F441D87D96500F63FC8 /* Sources */ = {
@@ -183,7 +267,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pradeep Kumar (9AKHGP2QJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradeep Kumar (9AKHGP2QJX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -205,6 +290,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1f02911a-0c90-4d00-81b4-4186dde8613e";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -228,7 +314,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pradeep Kumar (9AKHGP2QJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradeep Kumar (9AKHGP2QJX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -243,6 +330,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1f02911a-0c90-4d00-81b4-4186dde8613e";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -251,23 +339,33 @@
 		};
 		CE324F5E1D87D96500F63FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8F7C348E2D9DDFBD54663A /* Pods-PrintingTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradeep Kumar (9AKHGP2QJX)";
 				INFOPLIST_FILE = PrintingTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Affle.PrintingTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fab.Fit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1f02911a-0c90-4d00-81b4-4186dde8613e";
 			};
 			name = Debug;
 		};
 		CE324F5F1D87D96500F63FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A086590A3F7CDA49625DAAE /* Pods-PrintingTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pradeep Kumar (9AKHGP2QJX)";
 				INFOPLIST_FILE = PrintingTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Affle.PrintingTestDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Fab.Fit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1f02911a-0c90-4d00-81b4-4186dde8613e";
 			};
 			name = Release;
 		};
@@ -290,6 +388,7 @@
 				CE324F5F1D87D96500F63FC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
